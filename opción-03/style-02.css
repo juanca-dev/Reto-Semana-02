@@ -1,0 +1,46 @@
+body{
+    background-color: #b7dcec;
+    font-family: Arial;
+    font-size: 12px;
+    border:0;
+    margin:0;
+    padding: 0;
+}
+
+h3{
+    padding: 2px 20px;
+    text-align: center;
+}
+
+main{   
+    max-width: 25%;
+    margin: auto;
+}
+
+label{  
+    margin-left: 10px;
+}
+
+div{
+    width: 100%;
+}
+div input{
+    padding: 5px;
+    margin:5px 0 10px 0;
+    width: 96%;
+}
+
+div textarea{    
+    margin:5px 0 10px 0;
+    width: 97%;
+}
+
+#Send{
+    background-color: #18a8f5;
+    color: white;
+    border: none;
+    border-radius: 2px;   
+    margin: 0 40%;
+    padding: 10px;
+    width: 20%;
+}

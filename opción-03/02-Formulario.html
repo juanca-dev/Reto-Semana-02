@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opción 3</title>
+    <link rel="stylesheet" href="style-02.css">
+</head>
+<body>
+    
+    <header> 
+        <h3>Contact Form</h1>
+    </header>
+            <main>
+                <section>
+                    <form>                   
+                        <label for="firsName">First Name</label>
+                            <div>
+                                <input type="text" placeholder="Juan" id="firsName" minlength="6" required>
+                            </div>                   <label for="lastName">Last Name</label>
+                            <div>
+                                    <input type="text" placeholder="Madrid Flores" id="lastName" minlength="6" required>
+                            </div>
+                        <label for="Mail">Email</label>
+                            <div>                    
+                                    <input type="email" placeholder="you@email.com" id="mail" required>
+                            </div>
+                        <label for="Mensaje">Message</label>  
+                            <div>                                 
+                                    <textarea id="mensaje" placeholder="Enter your message required.." required pattern="[A-Z a-z]{20,140}" rows="5" ></textarea>
+                            </div>                   
+                            <div>
+                                <input type="submit" value="Submit" id="Send">                         
+                            </div>
+                    </form>    
+                </section>
+            </main>
+</body>
+</html>
